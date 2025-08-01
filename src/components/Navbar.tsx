@@ -36,7 +36,11 @@ const Navbar = () => {
                   {item.name}
                 </a>
               ))}
-              <Button variant="hero" size="sm">
+              <Button 
+                variant="hero" 
+                size="sm"
+                onClick={() => window.open('https://drive.google.com/uc?export=download&id=1uwbTErKMtacggIQDbYhtiLFlELQjC7oP', '_blank')}
+              >
                 Resume
               </Button>
             </div>
@@ -69,7 +73,12 @@ const Navbar = () => {
                 </a>
               ))}
               <div className="px-3 py-2">
-                <Button variant="hero" size="sm" className="w-full">
+                <Button 
+                  variant="hero" 
+                  size="sm" 
+                  className="w-full"
+                  onClick={() => window.open('https://drive.google.com/uc?export=download&id=1uwbTErKMtacggIQDbYhtiLFlELQjC7oP', '_blank')}
+                >
                   Resume
                 </Button>
               </div>

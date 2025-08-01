@@ -48,7 +48,8 @@ const Skills = () => {
             return (
               <Card 
                 key={category.title} 
-                className="p-6 bg-card border-card-border hover:shadow-elegant transition-all duration-300 hover:scale-105 group"
+                className="p-6 bg-card border-card-border hover:shadow-elegant transition-all duration-300 hover:scale-105 group animate-fade-in"
+                style={{animationDelay: `${index * 0.2}s`}}
               >
                 <div className="flex items-center gap-3 mb-6">
                   <div className={`p-3 rounded-lg bg-primary/10 ${category.color} group-hover:scale-110 transition-transform duration-300`}>
@@ -64,9 +65,9 @@ const Skills = () => {
                     <Badge
                       key={skill}
                       variant="secondary"
-                      className="bg-muted/50 hover:bg-primary/20 hover:text-primary transition-all duration-300 hover:scale-105 cursor-default"
+                      className="bg-muted/50 hover:bg-primary/20 hover:text-primary transition-all duration-300 hover:scale-105 cursor-default animate-scale-in"
                       style={{
-                        animationDelay: `${skillIndex * 0.1}s`
+                        animationDelay: `${(index * 0.2) + (skillIndex * 0.05)}s`
                       }}
                     >
                       {skill}

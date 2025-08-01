@@ -38,7 +38,7 @@ const About = () => {
             </h3>
             
             {/* B.Tech */}
-            <Card className="p-6 bg-card border-card-border hover:shadow-elegant transition-all duration-300 hover:scale-105">
+            <Card className="p-6 bg-card border-card-border hover:shadow-elegant transition-all duration-300 hover:scale-105 animate-slide-in-left">
               <div className="flex items-start gap-4">
                 <div className="p-3 rounded-lg bg-primary/10 text-primary">
                   <GraduationCap className="h-6 w-6" />
@@ -61,7 +61,7 @@ const About = () => {
             </Card>
 
             {/* Winter School */}
-            <Card className="p-6 bg-card border-card-border hover:shadow-elegant transition-all duration-300 hover:scale-105">
+            <Card className="p-6 bg-card border-card-border hover:shadow-elegant transition-all duration-300 hover:scale-105 animate-slide-in-left" style={{animationDelay: '0.2s'}}>
               <div className="flex items-start gap-4">
                 <div className="p-3 rounded-lg bg-accent/10 text-accent">
                   <BookOpen className="h-6 w-6" />
@@ -84,7 +84,7 @@ const About = () => {
             </Card>
 
             {/* Summer School */}
-            <Card className="p-6 bg-card border-card-border hover:shadow-elegant transition-all duration-300 hover:scale-105">
+            <Card className="p-6 bg-card border-card-border hover:shadow-elegant transition-all duration-300 hover:scale-105 animate-slide-in-left" style={{animationDelay: '0.4s'}}>
               <div className="flex items-start gap-4">
                 <div className="p-3 rounded-lg bg-primary/10 text-primary">
                   <Award className="h-6 w-6" />

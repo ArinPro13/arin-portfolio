@@ -51,9 +51,10 @@ const Projects = () => {
           {projects.map((project, index) => (
             <Card
               key={project.title}
-              className={`p-6 bg-card border-card-border hover:shadow-elegant transition-all duration-300 hover:scale-105 group ${
+              className={`p-6 bg-card border-card-border hover:shadow-elegant transition-all duration-300 hover:scale-105 group animate-fade-in-up ${
                 project.featured ? 'md:col-span-1' : ''
               }`}
+              style={{animationDelay: `${index * 0.2}s`}}
             >
               {project.featured && (
                 <Badge variant="default" className="mb-4 bg-accent text-accent-foreground">

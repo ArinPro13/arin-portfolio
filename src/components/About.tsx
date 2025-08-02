@@ -10,7 +10,7 @@ const About = () => {
             About Me
           </h2>
           <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
-            Computer Science student with a passion for AI and deep learning
+            Computer Science student with a passion for AI and Deep learning
           </p>
         </div>
 
@@ -45,7 +45,7 @@ const About = () => {
                 </div>
                 <div className="flex-1">
                   <h4 className="text-lg font-semibold text-foreground mb-1">
-                    B.Tech in Computer Science and Engineering
+                    Bachelors of Technology in Computer Science and Engineering
                   </h4>
                   <p className="text-primary font-medium mb-2">
                     National Institute of Technology, Durgapur
@@ -54,7 +54,7 @@ const About = () => {
                     Nov 2022 – Present | GPA: 8.55/10.0
                   </p>
                   <p className="text-sm text-muted-foreground">
-                    Courses: DSA, OS, DBMS, Deep Learning, CV, Compiler, CN, Embedded Systems
+                    Courses: DSA, OS, DBMS, Deep Learning , Compiler, CN, Embedded Systems
                   </p>
                 </div>
               </div>
@@ -91,7 +91,7 @@ const About = () => {
                 </div>
                 <div className="flex-1">
                   <h4 className="text-lg font-semibold text-foreground mb-1">
-                    Summer School Adhyayan – Mathematics & CS
+                    Summer School Adhyayan – Mathematics & Computer Science
                   </h4>
                   <p className="text-primary font-medium mb-2">
                     IIT Kanpur
@@ -100,7 +100,7 @@ const About = () => {
                     2023
                   </p>
                   <p className="text-sm text-muted-foreground">
-                    Topics: Discrete Math, Complexity Theory
+                    Topics: CS Fundamentals , Linear Algebra , Graph Theory.
                   </p>
                 </div>
               </div>

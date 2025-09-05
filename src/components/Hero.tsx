@@ -4,7 +4,7 @@ import arinHeadshot from "@/assets/arin-headshot.jpg";
 
 const Hero = () => {
   const handleResumeDownload = () => {
-    window.open('https://drive.google.com/uc?export=download&id=1uwbTErKMtacggIQDbYhtiLFlELQjC7oP', '_blank');
+    window.open('https://drive.google.com/file/d/1FyI3KnDR1Nnr-2i_y78R6tFscmkIykBz/view?usp=drive_link', '_blank');
   };
 
   const handleContact = () => {

@@ -39,7 +39,7 @@ const Navbar = () => {
               <Button 
                 variant="hero" 
                 size="sm"
-                onClick={() => window.open('https://drive.google.com/uc?export=download&id=1uwbTErKMtacggIQDbYhtiLFlELQjC7oP', '_blank')}
+                onClick={() => window.open('https://drive.google.com/file/d/1FyI3KnDR1Nnr-2i_y78R6tFscmkIykBz/view?usp=drive_link', '_blank')}
               >
                 Resume
               </Button>
